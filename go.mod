@@ -1,3 +1,3 @@
 module github.com/andyollylarkin/chunkreader
 
-go 1.22.4
+go 1.20.1
