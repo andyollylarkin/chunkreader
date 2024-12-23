@@ -1,10 +1,11 @@
 package chunkreader_test
 
 import (
-	"chunkreader"
 	"io"
 	"os"
 	"testing"
+
+	"github.com/andyollylarkin/chunkreader"
 )
 
 func BenchmarkChunkReader(b *testing.B) {
